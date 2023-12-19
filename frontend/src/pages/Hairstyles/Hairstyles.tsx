@@ -55,7 +55,7 @@ export function Hairstyles() {
         <Pagination
           value={page}
           onChange={setPage}
-          total={data?.pageCount || 10}
+          total={data?.pageCount || 1}
         />
       </Stack>
     </Stack>
